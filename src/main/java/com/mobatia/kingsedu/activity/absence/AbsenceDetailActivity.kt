@@ -39,6 +39,7 @@ class AbsenceDetailActivity : AppCompatActivity(){
     private lateinit var logoClickImgView: ImageView
     private lateinit var btn_left: ImageView
     private lateinit var heading: TextView
+    //nisxfbdesbfuybasuyfbvuyds
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
