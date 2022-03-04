@@ -7,5 +7,6 @@
         <domain includeSubdomains="true">stagingcms.bisad.ae</domain>
         <domain includeSubdomains="true">mobile.bisad.ae</domain>
         <domain includeSubdomains="true">twitter.com</domain>
+        <domain includeSubdomains="true">kingsedu.mobatia.in</domain>
     </domain-config>
 </network-security-config>

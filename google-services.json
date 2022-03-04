@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "980283042249",
-    "firebase_url": "https://bisad-d0bf7.firebaseio.com",
-    "project_id": "bisad-d0bf7",
-    "storage_bucket": "bisad-d0bf7.appspot.com"
+    "project_number": "335088617790",
+    "project_id": "kings--dubai-42869",
+    "storage_bucket": "kings--dubai-42869.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:980283042249:android:d0b6bb59b99b7201",
+        "mobilesdk_app_id": "1:335088617790:android:43765f34ebc1741493446f",
         "android_client_info": {
-          "package_name": "com.mobatia.bisad"
+          "package_name": "com.mobatia.kingsedu"
         }
       },
       "oauth_client": [
         {
-          "client_id": "980283042249-3egp788p6dhmigmet31ifqk1ct2v54sq.apps.googleusercontent.com",
+          "client_id": "335088617790-kb62t80sl6ct4373444t4cikfem248ek.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBLNWiaN1_0eFkyxk4XIWs7aX5SO2UbjJY"
+          "current_key": "AIzaSyD_vmPwj2PJnY_wcerSQsGE8ONcdpJaFYg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "980283042249-3egp788p6dhmigmet31ifqk1ct2v54sq.apps.googleusercontent.com",
+              "client_id": "335088617790-kb62t80sl6ct4373444t4cikfem248ek.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "980283042249-8a27hl9gu96umn9m4m8pfb1kf66o6c3i.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.bisad.bisad"
-              }
             }
           ]
         }

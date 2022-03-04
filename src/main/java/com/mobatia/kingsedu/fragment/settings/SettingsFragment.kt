@@ -149,8 +149,9 @@ class SettingsFragment : Fragment(){
                      }
                      else if (position==2)
                      {
+                         //emaill
                          val deliveryAddress =
-                             arrayOf("comms@bisad.ae")
+                             arrayOf("")
                          val emailIntent = Intent(Intent.ACTION_SEND)
                          emailIntent.putExtra(Intent.EXTRA_EMAIL, deliveryAddress)
                          emailIntent.type = "text/plain"
@@ -213,8 +214,9 @@ class SettingsFragment : Fragment(){
                          }
                          else if (position==2)
                          {
+                             //emaill
                              val deliveryAddress =
-                                 arrayOf("communications@bisaddubai.com")
+                                 arrayOf("")
                              val emailIntent = Intent(Intent.ACTION_SEND)
                              emailIntent.putExtra(Intent.EXTRA_EMAIL, deliveryAddress)
                              emailIntent.type = "text/plain"
@@ -281,8 +283,9 @@ class SettingsFragment : Fragment(){
                          }
                          else if (position==2)
                          {
+                             //emaill
                              val deliveryAddress =
-                                 arrayOf("communications@bisaddubai.com")
+                                 arrayOf("")
                              val emailIntent = Intent(Intent.ACTION_SEND)
                              emailIntent.putExtra(Intent.EXTRA_EMAIL, deliveryAddress)
                              emailIntent.type = "text/plain"

@@ -32,7 +32,7 @@ class TimeTableWeekListAdapter (private var weekArrayList: List<WeekModel>) :
         holder.weekTxt.text = movie.weekName
        if (weekArrayList.get(position).positionSelected!=-1)
        {
-           holder.weekTxt.setTextColor(mContext.resources.getColor(R.color.timetableblue))
+           holder.weekTxt.setTextColor(mContext.resources.getColor(R.color.colorAccent))
            holder.lineImage.visibility=View.VISIBLE
            holder.downArrowImage.visibility=View.VISIBLE
 //           val buttonAnimator =

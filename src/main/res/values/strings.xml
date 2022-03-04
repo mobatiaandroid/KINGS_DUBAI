@@ -10,6 +10,7 @@
     <string name="status_107">not a valid number</string>
     <string name="status_108">password and confirm password not same</string>
     <string name="status_109">Old passord doesn\'t match!</string>
+    <string name="status_115">Invalid file type</string>
     <string name="status_111">No student are linking with that users</string>
     <string name="status_117">not a valid date</string>
     <string name="status_126">File size too large( maxsize:2Mb )</string>

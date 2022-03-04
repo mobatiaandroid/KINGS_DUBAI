@@ -65,8 +65,8 @@ class ContactUsFragment : Fragment(), LocationListener,
     var aboutusdescription = ArrayList<ContactsListDetailModel>()
     private lateinit var linearLayoutManager: LinearLayoutManager
     lateinit var descriptiontext: TextView
-    lateinit var latitude: String
-    lateinit var longitude: String
+     var latitude: String =""
+     var longitude: String=""
     lateinit var c_latitude: String
     lateinit var c_longitude: String
     lateinit var locationManager: LocationManager
@@ -173,6 +173,7 @@ class ContactUsFragment : Fragment(), LocationListener,
 
     private fun getcontactdetails() {
         val token = sharedprefs.getaccesstoken(mContext)
+        Log.e("Token_contact",token)
         val call: Call<ContactusModel> = ApiClient.getClient.contactus("Bearer $token")
         call.enqueue(object : Callback<ContactusModel> {
             override fun onFailure(call: Call<ContactusModel>, t: Throwable) {

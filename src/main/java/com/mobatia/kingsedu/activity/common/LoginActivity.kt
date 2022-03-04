@@ -119,8 +119,9 @@ class LoginActivity : AppCompatActivity(),View.OnTouchListener{
         {
             var internetCheck = InternetCheckClass.isInternetAvailable(mContext)
             if (internetCheck) {
+                //emaill
                 val deliveryAddress =
-                    arrayOf("communications@bisaddubai.com")
+                    arrayOf("")
                 val emailIntent = Intent(Intent.ACTION_SEND)
                 emailIntent.putExtra(Intent.EXTRA_EMAIL, deliveryAddress)
                 emailIntent.type = "text/plain"

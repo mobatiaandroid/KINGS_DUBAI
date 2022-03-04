@@ -36,7 +36,6 @@ class TutorialActivity : AppCompatActivity() {
         bannerarray.add(R.drawable.tut4)
         bannerarray.add(R.drawable.tut5)
         bannerarray.add(R.drawable.tut2)
-        bannerarray.add(R.drawable.tut6)
         initializeUI()
     }
 
