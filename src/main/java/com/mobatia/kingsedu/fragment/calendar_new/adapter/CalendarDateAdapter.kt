@@ -69,6 +69,7 @@ class CalendarDateAdapter(
 
     @SuppressLint("SimpleDateFormat")
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+
         val summary = calendarArrayList[position]
 
 
@@ -135,7 +136,7 @@ class CalendarDateAdapter(
 
     override fun getItemCount(): Int {
 
-        return calendarArrayList.size
+        return 2
 
     }
 

@@ -118,7 +118,7 @@
             android:id="@+id/staffRelative"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:background="#43C8D8"
+            android:background="#ee3123"
             android:visibility="invisible"
             android:layout_marginLeft="10dp"
             android:layout_marginBottom="10dp"
@@ -143,7 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 app:siBorderWidth="1dp"
-                app:siBorderColor="#43C8D8"
+                app:siBorderColor="#ee3123"
                 android:src="@drawable/addiconinparentsevng"/>
 
             <com.mobatia.kingsedu.manager.CustomFontSansProTextWhiteWithoutColor

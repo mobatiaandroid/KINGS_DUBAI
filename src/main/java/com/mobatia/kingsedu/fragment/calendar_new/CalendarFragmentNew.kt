@@ -25,6 +25,7 @@ import com.mobatia.kingsedu.recyclermanager.addOnItemClickListener
 import com.mobatia.kingsedu.rest.ApiClient
 import com.mobatia.calendardemopro.adapter.CalendarDateAdapter
 import com.mobatia.calendardemopro.adapter.CategoryAdapter
+import kotlinx.android.synthetic.main.fragment_curriculum.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -171,12 +172,32 @@ class CalendarFragmentNew : Fragment() {
                 showBtn.setTextColor(resources.getColor(R.color.black))
             }
             month(currentMonth, year)
-            showCalendarEvent(
-                isAllSelected,
-                isPrimarySelected,
-                isSecondarySeleted,
-                isWholeSchoolSelected
-            )
+
+
+
+              if(year ==2021 && currentMonth<10)
+            {
+
+                noEventImage.visibility=View.VISIBLE
+                noEventTxt.visibility=View.VISIBLE
+                calendarRecycler.visibility=View.GONE
+
+
+            }
+            else if (year==2022 && currentMonth >= 6)
+              {
+                  noEventImage.visibility=View.VISIBLE
+                  noEventTxt.visibility=View.VISIBLE
+                  calendarRecycler.visibility=View.GONE
+            }
+            else{
+                  showCalendarEvent(
+                      isAllSelected,
+                      isPrimarySelected,
+                      isSecondarySeleted,
+                      isWholeSchoolSelected
+                  )
+              }
 
         })
 
@@ -224,12 +245,36 @@ class CalendarFragmentNew : Fragment() {
                 currentMonth = currentMonth - 1
             }
             month(currentMonth, year)
-            showCalendarEvent(
-                isAllSelected,
-                isPrimarySelected,
-                isSecondarySeleted,
-                isWholeSchoolSelected
-            )
+            if(year ==2021 && currentMonth <10)
+            {
+
+                noEventImage.visibility=View.VISIBLE
+                noEventTxt.visibility=View.VISIBLE
+                calendarRecycler.visibility=View.GONE
+
+
+            }
+            else if (year==2022 && currentMonth >= 6)
+            {
+                noEventImage.visibility=View.VISIBLE
+                noEventTxt.visibility=View.VISIBLE
+                calendarRecycler.visibility=View.GONE
+            }
+            else{
+                showCalendarEvent(
+                    isAllSelected,
+                    isPrimarySelected,
+                    isSecondarySeleted,
+                    isWholeSchoolSelected
+                )
+            }
+
+//            showCalendarEvent(
+//                isAllSelected,
+//                isPrimarySelected,
+//                isSecondarySeleted,
+//                isWholeSchoolSelected
+//            )
 
         })
 

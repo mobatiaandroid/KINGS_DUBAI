@@ -184,12 +184,12 @@ class MagazineListActivity : AppCompatActivity() {
                     }
                     else{
                         newsLetterRecycler.visibility= View.GONE
-                        showSuccessAlert(mContext,"No Letters Available.","Alert")
+                        showSuccessAlert(mContext,"No Magazine Available.","Alert")
                     }
                 }
                 else if (response.body()!!.status == 132)
                 {
-                    showSuccessAlert(mContext,"No Letters Available.","Alert")
+                    showSuccessAlert(mContext,"No Magazine Available.","Alert")
                 }
                 else if (response.body()!!.status == 116) {
                     apiCall=apiCall+1

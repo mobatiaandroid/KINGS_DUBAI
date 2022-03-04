@@ -224,7 +224,7 @@ class ContactUsFragment : Fragment(), LocationListener,
                         MarkerOptions()
                             .position(latLng)
                             .draggable(true)
-                            .title("BISAD")
+                            .title("KINGS'EDU")
                     )
 
 

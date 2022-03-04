@@ -514,7 +514,7 @@ class HomeActivity : AppCompatActivity(), OnItemLongClickListener {
         shadowBuilder = MyDragShadowBuilder(view)
         sPosition = position
         val selecteditem = parent?.getItemIdAtPosition(position)
-        view?.setBackgroundColor(Color.parseColor("#47C2D1"))
+        view?.setBackgroundColor(Color.parseColor("#003156"))
         val data = ClipData.newPlainText("", "")
         view?.startDrag(data, shadowBuilder, view, 0)
         view!!.visibility = View.VISIBLE

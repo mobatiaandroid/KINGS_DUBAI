@@ -36,7 +36,7 @@
         <item>Curriculum</item>
 <!--        <item>Update Account Details</item>-->
         <item>Contact Us</item>
-        <item>Apps</item>
+      <!--  <item>Apps</item>-->
 
     </string-array>
 
@@ -57,7 +57,7 @@
         <item>@drawable/ccas</item>
 <!--        <item>@drawable/updateaccount</item>-->
         <item>@drawable/contacts</item>
-        <item>@drawable/app</item>
+       <!-- <item>@drawable/app</item>-->
 
 
     </string-array>

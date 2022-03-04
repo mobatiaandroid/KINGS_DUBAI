@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#03DAC5</color>
-    <color name="colorPrimaryDark">#03DAC5</color>
+    <color name="colorPrimary">#003156</color>
+    <color name="colorPrimaryDark">#003156</color>
     <color name="colorAccent">#003156</color>
     <color name="present">#003156</color>
     <color name="rel_one">#003156</color>
@@ -13,10 +13,11 @@
     <color name="black">#000000</color>
     <color name="grey">#BDBDBD</color>
 
-    <color name="rel_two">#4dc4cf</color>
-    <color name="rel_four">#9ddae6</color>
+    <color name="rel_two">#384910</color>
+    <color name="rel_four">#C39F06</color>
     <color name="rel_five">#75298d</color>
     <color name="rel_six">#f6874a</color>
+    <color name="rel_three">#AB3910</color>
     <color name="rel_seven">#ffc20a</color>
     <color name="rel_eight">#8f8c85</color>
     <color name="rel_nine">#ee2953</color>
@@ -25,11 +26,11 @@
     <color name="light_grey">#d8d8d8</color>
     <color name="dark_grey1">#908C86</color>
 
-    <color name="cal_row_4">#4dc4cf</color>
+    <color name="cal_row_4">#384910</color>
     <color name="logout_user"> #808080</color>
     <color name="btnBackground">#e7e7e7</color>
-    <color name="timetableblue">#4dc4cf</color>
-    <color name="ttpop">#4dc4cf</color>
+    <color name="timetableblue">#003156</color>
+    <color name="ttpop">#003156</color>
     <color name="grey_checked">#CFD1D1</color>
     <color name="grey_unchecked1">#80ACADAC</color>
     <color name="linked_in">#0079A5</color>
