@@ -12,11 +12,17 @@
         android:layout_height="0dp"
         android:layout_weight="40">
 
+        <ImageView
+            android:id="@+id/defaultBanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_banner"/>
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/bannerImagePager"
             android:layout_width="match_parent"
-            android:background="@drawable/default_banner"
             android:layout_height="match_parent" />
+
+
     </RelativeLayout>
 
     <RelativeLayout

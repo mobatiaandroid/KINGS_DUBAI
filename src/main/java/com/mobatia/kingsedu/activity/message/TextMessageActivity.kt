@@ -134,7 +134,7 @@ class TextMessageActivity : AppCompatActivity(){
                                  "font-family: SourceSansPro-Semibold;" +
                                  "font-size:16px;" +
                                  "text-align:left;" +
-                                 "color: #46C1D0;" +
+                                 "color: #003156;" +
                                  "text-align: ####TEXT_ALIGN####;" +
                                  "}" +
                                  ".date {\n" +

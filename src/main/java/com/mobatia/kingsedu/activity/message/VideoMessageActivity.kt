@@ -145,7 +145,7 @@ class VideoMessageActivity : AppCompatActivity(){
                             "font-family: SourceSansPro-Regular;" +
                             "font-size:16px;" +
                             "text-align:left;" +
-                            "color:	#46C1D0;" +
+                            "color:	#003156;" +
                             "text-align: ####TEXT_ALIGN####;" +
                             "}" +
                             ".description {" +

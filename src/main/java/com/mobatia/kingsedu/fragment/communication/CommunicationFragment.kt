@@ -101,24 +101,25 @@ class CommunicationFragment : Fragment(){
         newsLetterRecycler.itemAnimator = DefaultItemAnimator()
 
         communicationArrayList= ArrayList()
-        communicationArrayList.add("Newsletters")
+//        communicationArrayList.add("Newsletters")
         communicationArrayList.add("Letters")
         communicationArrayList.add("Magazine")
         val settingsAdapter = SettingsRecyclerAdapter(mContext,communicationArrayList)
         newsLetterRecycler.adapter = settingsAdapter
         newsLetterRecycler.addOnItemClickListener(object: OnItemClickListener {
             override fun onItemClicked(position: Int, view: View) {
-                if (position==0)
-                {
-                    val intent =Intent(mContext, NewsLetterListActivity::class.java)
-                    startActivity(intent)
-                }
-                else if(position==1)
+//                if (position==0)
+//                {
+//                    val intent =Intent(mContext, NewsLetterListActivity::class.java)
+//                    startActivity(intent)
+//                }
+//                else
+                    if(position==0)
                 {
                     val intent =Intent(mContext, LetterListActvity::class.java)
                     startActivity(intent)
                 }
-                else if(position==2)
+                else if(position==1)
                 {
                     val intent =Intent(mContext, MagazineListActivity::class.java)
                     startActivity(intent)
