@@ -17,7 +17,7 @@
             android:id="@+id/imagicon"
             android:layout_centerHorizontal="true"
             android:layout_alignParentLeft="true"
-            app:siBorderColor="#A0DAE5"/>
+            app:siBorderColor="#003156"/>
         <com.mobatia.kingsedu.manager.CustomFontSansProTextWhiteWithoutColor
             android:id="@+id/listTxtTitle"
             style="@style/textstyleblack"

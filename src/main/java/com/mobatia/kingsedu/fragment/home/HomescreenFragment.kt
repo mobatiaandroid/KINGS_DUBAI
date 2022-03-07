@@ -1051,8 +1051,6 @@ class HomescreenFragment : Fragment(), View.OnClickListener {
 
     fun updatedata() {
         val handler = Handler()
-
-
         val update = Runnable {
             if (currentPage == bannerarray.size) {
                 currentPage = 0
@@ -1068,10 +1066,11 @@ class HomescreenFragment : Fragment(), View.OnClickListener {
         val swipetimer = Timer()
 
         swipetimer.schedule(object : TimerTask() {
-            override fun run() {
+            override fun run()
+            {
                 handler.post(update)
             }
-        }, 100, 6000)
+        }, 1000, 3000)
 
     }
 

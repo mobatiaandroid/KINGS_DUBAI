@@ -23,7 +23,6 @@ private lateinit var progressDialog: RelativeLayout
 class AppsDetailActivity : AppCompatActivity() {
     lateinit var mContext: Context
     private lateinit var webView: WebView
-
     private lateinit var relativeHeader: RelativeLayout
     private lateinit var backRelative: RelativeLayout
     private lateinit var logoClickImgView: ImageView

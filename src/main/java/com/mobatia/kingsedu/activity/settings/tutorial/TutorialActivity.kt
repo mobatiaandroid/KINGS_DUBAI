@@ -92,7 +92,7 @@ class TutorialActivity : AppCompatActivity() {
             )
             mImgCircle.get(i)!!.setLayoutParams(layoutParams)
             if (i == count) {
-                mImgCircle.get(i)!!.setBackgroundResource(R.drawable.redround)
+                mImgCircle.get(i)!!.setBackgroundResource(R.drawable.round)
             } else {
                 mImgCircle.get(i)!!.setBackgroundResource(R.drawable.blackround)
             }
