@@ -121,7 +121,7 @@ class LoginActivity : AppCompatActivity(),View.OnTouchListener{
             if (internetCheck) {
                 //emaill
                 val deliveryAddress =
-                    arrayOf("")
+                    arrayOf("communication@kingsdubai.com")
                 val emailIntent = Intent(Intent.ACTION_SEND)
                 emailIntent.putExtra(Intent.EXTRA_EMAIL, deliveryAddress)
                 emailIntent.type = "text/plain"

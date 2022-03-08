@@ -147,7 +147,6 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:background="@color/rel_three"
-
                         android:layout_weight="50">
                         <RelativeLayout
                             android:id="@+id/relThree"
